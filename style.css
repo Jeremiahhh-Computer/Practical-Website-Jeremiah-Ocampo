@@ -1,0 +1,50 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(background11.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    background: transparent;
+    padding: 10px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+button {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: none;
+    background: lightskyblue;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background: #e4a19e;
+}
